@@ -124,3 +124,14 @@ body {
   margin-left: auto;
 }
 /* nav 끝 */
+audio {
+  margin: 30px;
+  margin-bottom: 40px;
+  width: 250px;
+  height: 40px;
+}
+.voice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
