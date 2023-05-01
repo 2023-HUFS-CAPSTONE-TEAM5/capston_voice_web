@@ -5,6 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+
 @media (max-width: 414px) {
   /* iPhone XR 크기 이하 */
   .navbar-nav {
@@ -16,6 +19,7 @@
     margin-top: 1rem;
   }
 }
+
 /* nav */
 .navbar-nav {
   margin: 0 auto;
@@ -56,6 +60,8 @@
   margin-left: auto;
 }
 /* nav 끝 */
+
+
 
 .analysis_title1 {
   font-weight: bold;
@@ -106,13 +112,16 @@ header {
   text-align: center;
 }
 
-.btn-hover {
-  width: 200px;
-  font-size: 16px;
+
+
+/*변경하기 버튼*/
+.btn2-hover {
+  width: 80px;
+  font-size: 10px;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
-  height: 55px;
+  margin: 10px;
+  height: 30px;
   text-align: center;
   border: none;
   background-size: 300% 100%;
@@ -123,8 +132,7 @@ header {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-
-.btn-hover:hover {
+.btn2-hover:hover {
   background-position: 100% 0;
   moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -132,11 +140,11 @@ header {
   transition: all 0.4s ease-in-out;
 }
 
-.btn-hover:focus {
+.btn2-hover:focus {
   outline: none;
 }
 
-.btn-hover.color-2 {
+.btn2-hover.color-2 {
   background-image: linear-gradient(
     to right,
     #f5ce62,
@@ -144,8 +152,54 @@ header {
     #fa7199,
     #e85a19
   );
-  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
+
+
+
+/*내 정보 관련 css*/
+.divtitle {
+  font-family: "BMJUA";
+  font-size: 20px;
+  text-align: right;
+  font-style: bold;
+  margin-right: -20px;
+  
+}
+
+
+.container_item {
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+}
+
+
+
+.divcontent {
+  font-family: "BMJUA";
+  text-align: left;
+  border: 1px solid;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+/*박스 내용물 정렬*/
+.divalign{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row; /*수평 정렬*/
+  align-items: left;
+  /*background-color: red;*/
+}
+
+.divitem{
+  width: 150px;
+  height: 60px;
+  /*background: #0054FF;*/
+  margin: 10px;
+}
+
 
 select::-ms-expand {
   display: none;
@@ -159,10 +213,13 @@ select::-ms-expand {
   margin: 0;
   border: none;
 }
+
+
+
+
 body {
   font-size: 14px;
   font-family: "BMJUA", sans-serif;
-  text-align: center;
 }
 audio {
   margin-top: 10px;

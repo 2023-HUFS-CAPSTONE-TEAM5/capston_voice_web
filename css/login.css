@@ -90,6 +90,8 @@ body {
   background-size: contain;
 }
 
+
+
 .buttons {
   margin: 10%;
   text-align: center;
@@ -136,45 +138,8 @@ body {
   box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
 
-.btn-hover2 {
-  width: 80px;
-  font-size: 10px;
-  color: #fff;
-  cursor: pointer;
-  margin: 10px;
-  height: 20px;
-  text-align: center;
-  border: none;
-  background-size: 300% 100%;
-  font-family: "BMJUA";
-  border-radius: 50px;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
 
-.btn-hover2:focus {
-  outline: none;
-}
 
-.btn-hover2:hover {
-  background-position: 100% 0;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-hover2.color-2 {
-  background-image: linear-gradient(
-    to right,
-    #f5ce62,
-    #e43603,
-    #fa7199,
-    #e85a19
-  );
-}
 
 select::-ms-expand {
   display: none;

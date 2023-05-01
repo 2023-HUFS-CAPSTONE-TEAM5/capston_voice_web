@@ -4,41 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>마이페이지</title>
+
     <!-- bootstrap css -->
+    <!-- css 파일 연결-->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/myPage.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
-    <style>
-      .divtitle {
-        margin-left: -100px;
-        font-family: "BMJUA";
-        text-align: left;
-      }
-      .divbutton {
-        font-family: "BMJUA";
-        text-align: left;
-      }
-      .divcontent {
-        font-family: "BMJUA";
-        text-align: left;
-        border: 1px solid;
-        margin: 10px;
-        padding: 10px;
-        border-radius: 3px 3px 3px 3px;
-      }
-      .button {
-        width: 50px;
-        font-size: 1px;
-        color: #fff;
-        cursor: pointer;
-        margin: 20px;
-        height: 55px;
-      }
-    </style>
   </head>
+
   <body>
     <!-- 네비게이션 바 -->
     <header class="mt-0">
@@ -54,36 +30,31 @@
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation">
+
             <span class="navbar-toggler-icon">
               <i class="bi bi-list"></i>
             </span>
           </button>
-          <div
+        <div
             class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./analysis.html"
-                  >음성 감정 분석하기</a
-                >
+            id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./analysis.html">음성 감정 분석하기</a>
               </li>
               <!-- <li class="nav-item">
                       <a class="nav-link" href="./output.html"
                         >음성 감정 분석 결과</a
                       >
                     </li> -->
-              <li class="nav-item">
+            <li class="nav-item">
                 <a
                   class="nav-link"
                   active
                   aria-current="page"
-                  href="./mypage.html"
-                  >마이페이지</a
-                >
-              </li>
+                  href="./mypage.html">마이페이지</a>
+            </li>
               <li class="nav-item">
                 <a class="nav-link" id="logout">로그아웃</a>
               </li>
@@ -92,33 +63,42 @@
         </div>
       </nav>
     </header>
+    <!-- 네비게이션 바 코드 끝-->
+
+
+    <!-- 내 정보 html 코드-->
     <div>
-      <span class="divtitle"><strong>내 정보</strong></span>
-      <span class="divbutton">
+      <span class="divtitle" style="margin-left: 20px;">
+        <strong>내 정보</strong>
+        <span class="container_item">
         <button
-          class="btn-hover2 color-2"
-          onClick="location.href='./analysis.html'; return false;"
-        >
+          class="btn2-hover color-2"
+          onClick="location.href='./analysis.html'; return false;">
           정보 수정하기
-        </button>
+        </button></span>
+        <span class="container_item">
         <button
-          class="btn-hover2 color-2"
-          onClick="location.href='./analysis.html'; return false;"
-        >
-          비밀번호 변경</button
-        ><br />
-      </span>
+          class="btn2-hover color-2"
+          onClick="location.href='./analysis.html'; return false;">
+          비밀번호 변경</button></span><br/></span>
       <div class="divcontent">
-        <span style="color: rgb(255, 178, 34)">First name : </span
-        >Honey&nbsp;&nbsp;&nbsp;
-        <span style="color: rgb(255, 178, 34)">Age : </span>20<br />
-        <span style="color: rgb(255, 178, 34)">Last name : </span
-        >Mind&nbsp;&nbsp;&nbsp;
-        <span style="color: rgb(255, 178, 34)">Job : </span>Student<br />
-        <span style="color: rgb(255, 178, 34)"> E-Mail : </span
-        >temp@honeyMind.com&nbsp;&nbsp;&nbsp;
-        <span style="color: rgb(255, 178, 34)">Sex : </span>woman<br />
+        <strong>
+          <div class="divalign">
+              <span style="color: rgb(255, 178, 34);">FIRST NAME </span>&nbsp&nbsp
+                Honey
+              <span style="color: rgb(255, 178, 34); margin-left: 20px; margin-right: 100px;">AGE  </span> &nbsp&nbsp 20
+              <br>
+                <span style="color: rgb(255, 178, 34)">LAST NAME  </span>&nbsp&nbsp
+                  Mind
+                <span style="color: rgb(255, 178, 34); margin-left: 20px; margin-right: 100px;">JOB  </span>&nbsp&nbsp
+                    Student<br>
+                <span style="color: rgb(255, 178, 34)"> E-MAIL</span>&nbsp&nbsp
+                  temp@honeyMind.com 
+                <span style="color: rgb(255, 178, 34)">SEX  </span>&nbsp&nbsp woman
+              </strong>
+        </div>
       </div>
+<!-- 내 정보 html 코드 끝-->
 
       <p style="font-size: 30px">분석내역</p>
       <div class="log_contant" style="font-size: 20px">
