@@ -6,8 +6,6 @@
   font-style: normal;
 }
 
-
-
 @media (max-width: 414px) {
   /* iPhone XR 크기 이하 */
   .navbar-nav {
@@ -61,8 +59,6 @@
 }
 /* nav 끝 */
 
-
-
 .analysis_title1 {
   font-weight: bold;
   color: rgb(250, 182, 54);
@@ -112,8 +108,6 @@ header {
   text-align: center;
 }
 
-
-
 /*변경하기 버튼*/
 .btn2-hover {
   width: 80px;
@@ -154,8 +148,6 @@ header {
   );
 }
 
-
-
 /*내 정보 관련 css*/
 .divtitle {
   font-family: "BMJUA";
@@ -163,17 +155,13 @@ header {
   text-align: right;
   font-style: bold;
   margin-right: -20px;
-  
 }
-
 
 .container_item {
   width: 90px;
   height: 30px;
   display: inline-block;
 }
-
-
 
 .divcontent {
   font-family: "BMJUA";
@@ -185,21 +173,20 @@ header {
 }
 
 /*박스 내용물 정렬*/
-.divalign{
+.divalign {
   display: flex;
   flex-wrap: wrap;
-  flex-direction:row; /*수평 정렬*/
+  flex-direction: row; /*수평 정렬*/
   align-items: left;
   /*background-color: red;*/
 }
 
-.divitem{
+.divitem {
   width: 150px;
   height: 60px;
   /*background: #0054FF;*/
   margin: 10px;
 }
-
 
 select::-ms-expand {
   display: none;
@@ -213,9 +200,6 @@ select::-ms-expand {
   margin: 0;
   border: none;
 }
-
-
-
 
 body {
   font-size: 14px;
@@ -236,4 +220,8 @@ span {
 }
 li {
   margin-bottom: 10px;
+}
+.logs {
+  text-align: center;
+  margin: 20px;
 }
