@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media (max-width: 414px) {
   /* iPhone XR 크기 이하 */
   .navbar-nav {
@@ -30,7 +37,7 @@
 }
 
 .navbar .nav-link {
-  color: rgb(255, 255, 255);
+  color: rgb(23, 23, 23);
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 10px; /* margin-bottom 추가 */
@@ -138,35 +145,39 @@ header {
 }
 
 .btn2-hover.color-2 {
-  background-image: linear-gradient(
-    to right,
-    #f5ce62,
-    #e43603,
-    #fa7199,
-    #e85a19
-  );
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.btn2-hover.color-3 {
+  background: #ffa751;  /* fallback for old browsers */
+}
+
 
 /*내 정보 관련 css*/
 .divtitle {
   font-family: "BMJUA";
-  font-size: 20px;
-  text-align: right;
+  font-size: 30px;
+  text-align: center;
   font-style: bold;
   margin-right: -20px;
+}
+
+.container_list {
+  text-align: center;
 }
 
 .container_item {
   width: 90px;
   height: 30px;
-  display: inline-block;
+  text-align: center;
 }
 
 .divcontent {
   font-family: "BMJUA";
   text-align: left;
-  border: 1px solid;
-  margin: 10px;
+  border: 2px solid;
   padding: 5px;
   border-radius: 3px 3px 3px 3px;
 }
