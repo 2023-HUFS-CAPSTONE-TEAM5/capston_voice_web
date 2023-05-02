@@ -38,11 +38,27 @@
 
 .navbar .nav-link:hover {
   color: rgb(250, 182, 54);
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px;
+  text-align: center;
   font-weight: bold;
+
 }
 
 .navbar .nav-link[aria-current="page"] {
   color: rgb(250, 182, 54);
+  color: rgb(250, 182, 54);
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -60,14 +76,11 @@
 
 .analysis_title1 {
   font-weight: bold;
-  color: rgb(250, 182, 54);
-  background: #ffe259;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  color: transparent;
-  -webkit-background-clip: text;  font-size: 250%;
+  color: #ff972e;
   text-align: center;
 }
+
+
 #analysis_button {
   font-weight: bold;
   color: white;
@@ -76,6 +89,8 @@
   left: 50%; /* 가운데 위치시킵니다 */
   transform: translateX(-50%); /* 가운데 정렬합니다 */
 }
+
+
 .analysis-container {
   /* display: flex; */
   /* flex-wrap: nowrap; */

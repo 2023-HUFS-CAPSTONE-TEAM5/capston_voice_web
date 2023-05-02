@@ -38,18 +38,30 @@
 
 .navbar .nav-link {
   color: rgb(23, 23, 23);
-  font-weight: bold;
   font-size: 20px;
   margin-bottom: 10px; /* margin-bottom 추가 */
 }
 
 .navbar .nav-link:hover {
   color: rgb(250, 182, 54);
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .navbar .nav-link[aria-current="page"] {
   color: rgb(250, 182, 54);
+  color: rgb(250, 182, 54);
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px;
   font-weight: bold;
 }
 
