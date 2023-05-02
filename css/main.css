@@ -25,7 +25,7 @@ header {
 }
 .main_title {
   font-weight: bold;
-  color: rgb(250, 182, 54);
+  color: rgb(255, 255, 255);
   font-size: 400%;
   text-align: center;
 }
@@ -41,7 +41,7 @@ header {
   transform: translateX(-50%); /* 가운데 정렬합니다 */
 }
 .E {
-  color: gray;
+  color: rgb(255, 255, 255);
 }
 #main_analysis {
   font-weight: bold;

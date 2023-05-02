@@ -16,6 +16,9 @@
     margin-top: 1rem;
   }
 }
+
+
+
 /* nav */
 .navbar-nav {
   margin: 0 auto;
@@ -28,8 +31,7 @@
 }
 
 .navbar .nav-link {
-  color: black;
-  font-weight: bold;
+  color: rgb(23, 23, 23);
   font-size: 20px;
   margin-bottom: 10px; /* margin-bottom 추가 */
 }
@@ -45,7 +47,7 @@
 }
 
 .navbar-toggler-icon {
-  color: black;
+  color: rgb(23, 23, 23);
 }
 .navbar-brand {
   margin-right: auto;
@@ -59,7 +61,11 @@
 .analysis_title1 {
   font-weight: bold;
   color: rgb(250, 182, 54);
-  font-size: 250%;
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  color: transparent;
+  -webkit-background-clip: text;  font-size: 250%;
   text-align: center;
 }
 #analysis_button {
